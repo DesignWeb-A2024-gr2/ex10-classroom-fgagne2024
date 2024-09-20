@@ -6,15 +6,102 @@
 
 .resume-table {
     width: 100%; /* On veut que le tableau occupe toute la largeur de la section */
-    table-layout: fixed; /* Pour dimensionner plus facilement le tableau et ses cellules */
+    table-layout: fixed;
+    
+    border-radius: 8px;
+    padding: 0px;
+    color: black;
+     /* Pour dimensionner plus facilement le tableau et ses cellules */
+}
+
+
+.icon-directory{
+    color: #54aeff;
+}
+table #head{
+    
+
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+.tete{
+    display: flex;
+    justify-content: space-between;
+}
+
+table{
+    border-collapse:collapse;
+    border: 1px solid #ddd ;
+    border-radius: 10px;
+}
+
+td{
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:hover{
+    background-color: #f1f1f1;
+}
+#ly{
+    display: flex;
+    justify-content: end;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+td #head{
+    padding: 0px;
 }
 
 
 
+.readme{
+    margin-top: 20px;
+    border: 2px solid #d1d9e0;
+    border-radius: 5px;
+}
 
+.readme-entete{
+    border-bottom: 2px solid #d1d9e0 ;
+    
+    font-weight: bold;
 
+}
 
+.readme-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.readme-detail p{
+    font-weight: bold;
+    font-size: 20px;
+}
+button{
+    margin-top: 40px;
+    background-color:  #0969da;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+}
 
+.orange{
+    width: 100px;
+    border-bottom: 4px solid #fd8c73;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
 
-
-
+#gras{
+    font-weight: bold;
+}
